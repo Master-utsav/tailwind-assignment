@@ -51,7 +51,7 @@ const SideBar: React.FC<SideBarProps> = ({ OnSideBarOpen }) => {
 
           <div className="border-t-2 dark:border-white border-black rounded-l-2xl rounded-r-2xl py-2 w-full px-2"></div>
 
-          <nav className={`space-y-0 w-full ${isSideBarOpen ? "px-4" : "px-1"}`}>
+          <nav className={`space-y-0 w-full ${isSideBarOpen ? "px-4" : "px-4"}`}>
             {DashBoardNavItems.map((item, index) => (
               <SideBarItems
                 key={index}
